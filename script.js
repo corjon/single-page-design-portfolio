@@ -1,4 +1,4 @@
-const pictures = document.querySelectorAll("#picture");
+const pictures = document.querySelectorAll(".picture");
 var i = 0;
 
 move = (n => {
