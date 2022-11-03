@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <script src="script.js" defer></script>
+  
+  <title>Frontend Mentor | Single-page design portfolio</title>
+</head>
+<body>
+
+  <header>
+    <img src="starter-code/assets/logo.svg" alt="logo">
+    <a href="#">Free Consultation</a>
+  </header>
+
+  <main>
+    <article class="intro">
+      <h1>Design solutions made easy</h1>
+
+      <p>With over ten years of experience in various design disciplines, I’m your one-stop shop for your design needs.</p>
+    </article>
+
+    <div class="grid">
+      <div class="gd"><img src="starter-code/assets/pattern-graphic-design.svg" alt=""><p>Graphic Design</p></div>
+      <div class="ui"><img src="starter-code/assets/pattern-ui-ux.svg" alt=""><p>UI/UX</p></div>
+      <div class="ap"><img src="starter-code/assets/pattern-apps.svg" alt=""><p>Apps</p></div>
+      <div class="il"><img src="starter-code/assets/pattern-illustrations.svg" alt=""><p>Illustrations</p></div>
+      <div class="ph"><img src="starter-code/assets/pattern-photography.svg" alt=""><p>Photography</p></div>
+      <div class="mg"><img src="starter-code/assets/pattern-motion-graphics.svg" alt=""><p>Motion Graphics</p></div>
+    </div>
+
+    <div class="about-me">
+      <img src="starter-code/assets/image-amy.webp" alt="photo of Amy">
+
+      <article>
+        <h2>I’m Amy, and I’d love to work on your next project</h2>
+
+        <p>I love working with others to create beautiful design solutions. I’ve designed everything from brand illustrations 
+        to complete mobile apps. I’m also handy with a camera!</p>
+
+        <a href="#" class="orange-btn">Free Consultation</a>
+      </article>
+    </div>
+
+    <h3>My Work</h3>
+    
+    <div class="image-carousel" id="carousel">
+      <img src="starter-code/assets/image-slide-1.jpg" id="picture" alt="abstract art">
+      <img src="starter-code/assets/image-slide-2.jpg" id="picture" alt="geomeric shapes">
+      <img src="starter-code/assets/image-slide-3.jpg" id="picture" alt="hand holding newspaper with geometric shapes">
+      <img src="starter-code/assets/image-slide-4.jpg" id="picture" alt="graphic design books sitting on records">
+      <img src="starter-code/assets/image-slide-5.jpg" id="picture" alt="hand holding phone with plant and drink in background">
+    </div>
+
+    <div class="slider-btns">
+      <button type="button" onclick="move(1)" aria-label="left arrow"><img src="starter-code/assets/icon-arrow-left.svg" alt=""></button>
+      <button type="button" onclick="move(-1)" aria-label="right arrow"><img src="starter-code/assets/icon-arrow-right.svg" alt=""></button>
+    </div>
+
+    <div class="cta">
+      <article>
+        <h2>Book a call with me</h2>
+
+        <p>I’d love to have a chat to see how I can help you. The best first step is for us to discuss your project during a 
+        free consultation. Then we can move forward from there.</p>
+      </article>
+
+      <a href="#" class="orange-btn">Free Consultation</a>
+    </div>
+  </main>
+
+  <footer>  
+    <img src="starter-code/assets/logo.svg" alt="logo">
+    <a href="#">Free Consultation</a>
+  </footer>
+
+</body>
+</html>
